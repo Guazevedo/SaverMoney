@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.avellb155max.helloworld">
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DashboardActivity"
+            android:label="Bem vindo"
+            android:theme="@style/DashTheme" />
+        <activity
+            android:name=".NovoGasto"
+            android:label="Adicionar Gasto"
+            android:theme="@style/DashTheme" />
+        <activity
+            android:name=".Consulta"
+            android:label="Consultar"
+            android:theme="@style/DashTheme" />
+    </application>
+
+</manifest>
