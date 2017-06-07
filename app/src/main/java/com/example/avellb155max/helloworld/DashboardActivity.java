@@ -18,10 +18,11 @@ public class DashboardActivity extends AppCompatActivity {
             startActivity(new Intent(this,NovoGasto.class));
         }
     public void consulta(View view){
-
         startActivity(new Intent(this,Consulta.class));
-
-
     }
+    public void excluir(View view){
+        startActivity(new Intent(this,excluir.class));
+    }
+
 
 }

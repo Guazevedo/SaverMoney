@@ -43,7 +43,8 @@
         android:layout_weight="0.06"
         android:layout_marginTop="75dp"
         android:layout_below="@+id/consulta"
-        android:layout_alignStart="@+id/consulta" />
+        android:layout_alignStart="@+id/consulta"
+        android:onClick="excluir"/>
 
     <TextView
         android:text="Modificar um Gasto"
