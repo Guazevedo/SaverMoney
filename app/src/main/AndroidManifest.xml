@@ -27,9 +27,14 @@
             android:name=".Consulta"
             android:label="Consultar"
             android:theme="@style/DashTheme" />
-        <activity android:name=".excluir"
+
+        <activity android:name=".Update"
+            android:label="Atualizar um Gasto"
+            android:theme="@style/DashTheme"/>
+
+        <activity android:name=".Excluir"
             android:label="Excluir um Gasto"
-            android:theme="@style/DashTheme"></activity>
+            android:theme="@style/DashTheme"/>
     </application>
 
 </manifest>

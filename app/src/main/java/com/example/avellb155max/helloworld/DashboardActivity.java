@@ -21,7 +21,10 @@ public class DashboardActivity extends AppCompatActivity {
         startActivity(new Intent(this,Consulta.class));
     }
     public void excluir(View view){
-        startActivity(new Intent(this,excluir.class));
+        startActivity(new Intent(this,Excluir.class));
+    }
+    public void update(View view){
+        startActivity(new Intent(this,Update.class));
     }
 
 

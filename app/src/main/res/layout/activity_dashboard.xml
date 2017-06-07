@@ -74,7 +74,8 @@
         android:id="@+id/mudar"
         android:layout_weight="0.06"
         android:layout_alignTop="@+id/excluir"
-        android:layout_alignStart="@+id/modificarTxT" />
+        android:layout_alignStart="@+id/modificarTxT"
+        android:onClick="update"/>
 
     <TextView
         android:text="Consultar Gastos"
