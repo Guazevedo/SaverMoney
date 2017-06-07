@@ -66,19 +66,5 @@
 
         />
 
-    <Button
-    android:layout_marginTop="50px"
-    android:layout_margin="30px"
-    android:text="não é cadastrado casastre se aqui "
-    android:layout_width="wrap_content"
-    android:layout_height="18dp"
-    android:id="@+id/btnCadastro"
-    android:layout_gravity="left"
-        android:background="@color/fundo"
-    android:textColor="@color/colorAccent"
-        android:layout_weight="0.10"
-        />
-
-
 
 </LinearLayout>
