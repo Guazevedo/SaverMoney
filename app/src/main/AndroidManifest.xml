@@ -22,19 +22,39 @@
         <activity
             android:name=".NovoGasto"
             android:label="Adicionar Gasto"
-            android:theme="@style/DashTheme" />
+            android:theme="@style/DashTheme"
+            android:parentActivityName=".DashboardActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DashboardActivity"/>
+            </activity>
         <activity
             android:name=".Consulta"
             android:label="Consultar"
-            android:theme="@style/DashTheme" />
+            android:theme="@style/DashTheme"
+            android:parentActivityName=".DashboardActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DashboardActivity"/>
+        </activity>
 
         <activity android:name=".Update"
             android:label="Atualizar um Gasto"
-            android:theme="@style/DashTheme"/>
+            android:theme="@style/DashTheme"
+            android:parentActivityName=".DashboardActivity">
+         <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".DashboardActivity"/>
+            </activity>
 
         <activity android:name=".Excluir"
             android:label="Excluir um Gasto"
-            android:theme="@style/DashTheme"/>
+            android:theme="@style/DashTheme"
+            android:parentActivityName=".DashboardActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DashboardActivity"/>
+            </activity>
     </application>
 
 </manifest>

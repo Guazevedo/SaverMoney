@@ -20,7 +20,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.login_main);
         usuario= (EditText) findViewById(R.id.login);
         senha= (EditText) findViewById(R.id.senha);
-        Button submit= (Button)  findViewById(R.id.btnLogin);
+        /*botao futuro para cadastro no sistema
+        Button submit= (Button)  findViewById(R.id.btnLogin);*/
 
     }
 
