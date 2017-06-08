@@ -11,43 +11,28 @@
     tools:context="com.example.avellb155max.helloworld.NovoGasto"
     android:background="@color/fundo">
 
-    <EditText
-        android:layout_width="wrap_content"
+    <Button
+        android:text="Enviar"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:inputType="date"
-        android:ems="10"
-        android:layout_below="@+id/txtView1"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="22dp"
-        android:textSize="12pt"
-        android:textColor="@color/colorPrimaryDark"
-        android:id="@+id/edtText1"
-        android:text="Data" />
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/button"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="salvarGasto"
+        />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="14dp"
         android:id="@+id/txtView1"
         android:textSize="13pt"
-        android:text="Data do gasto"
-        android:textColor="@color/colorAccent"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <TextView
         android:text="Valor do gasto"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="13pt"
-        android:id="@+id/txtView2"
         android:textColor="@color/colorAccent"
-        android:layout_below="@+id/edtText1"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="24dp" />
+        android:layout_alignTop="@+id/btnDataGasto"
+        android:layout_alignEnd="@+id/txtView2"
+        android:layout_marginTop="79dp" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -55,49 +40,57 @@
         android:inputType="numberDecimal"
         android:textColor="@color/colorPrimaryDark"
         android:ems="10"
-        android:layout_marginTop="14dp"
-        android:id="@+id/edtText2"
+        android:id="@+id/valorTxt"
         android:text="0,00"
         android:textSize="13pt"
-        android:layout_below="@+id/txtView2"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_below="@+id/txtView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp" />
+
+    <TextView
+        android:text="Data do gasto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13pt"
+        android:id="@+id/txtView2"
+        android:textColor="@color/colorAccent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnDataGasto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="selecionarData"
+        android:text="Selecione"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:text="Observações"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
         android:textSize="13pt"
         android:id="@+id/txtView3"
         android:textColor="@color/colorAccent"
-        android:layout_below="@+id/edtText2"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_below="@+id/valorTxt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="80dp"
         android:inputType="textMultiLine"
         android:ems="10"
-        android:layout_below="@+id/txtView3"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
         android:textColor="@color/colorPrimaryDark"
-        android:layout_marginTop="16dp"
-        android:id="@+id/editText6"
-        android:layout_alignParentRight="true"
+        android:id="@+id/obsTxt"
+        android:layout_below="@+id/txtView3"
+        android:layout_alignStart="@+id/valorTxt"
+        android:layout_marginTop="18dp"
         android:layout_alignParentEnd="true" />
-
-    <Button
-        android:text="Enviar"
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/editText6"
-        android:background="@color/colorPrimaryDark"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="21dp"
-        android:id="@+id/button" />
 
 
 

@@ -7,4 +7,6 @@
 
     <string name="action_settings">Settings</string>
     <string name="erroAut">usuario ou senha invalido</string>
+    <string name="registro_salvo">Gasto salvo com sucesso</string>
+    <string name="erro_salvar">erro no momento de salvar as informacoes</string>
 </resources>
