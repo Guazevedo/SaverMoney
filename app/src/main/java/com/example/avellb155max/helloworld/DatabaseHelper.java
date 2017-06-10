@@ -17,8 +17,8 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db) {
         db.execSQL("CREATE TABLE gasto(_id INTEGER PRIMARY KEY," +
-                "data DATE,valor INTEGER," +
-                "descricao TEXT);");
+                "data DATE not null,valor INTEGER not null," +
+                "descricao TEXT not null);");
     }
 
     @Override
