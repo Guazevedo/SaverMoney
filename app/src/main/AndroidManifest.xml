@@ -31,8 +31,8 @@
         <activity
             android:name=".Consulta"
             android:label="Consultar"
-            android:theme="@style/DashTheme"
-            android:parentActivityName=".DashboardActivity">
+            android:theme="@style/ListTheme"
+            android:parentActivityName=".DashboardActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".DashboardActivity"/>

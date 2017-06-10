@@ -15,5 +15,13 @@
         <item name="android:navigationBarColor">@color/colorPrimaryDark</item>
 
     </style>
+    <style name="ListTheme" parent="@android:style/Widget.ListView">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:navigationBarColor">@color/colorPrimaryDark</item>
+        <item name="android:background">@color/fundo</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
 
 </resources>
